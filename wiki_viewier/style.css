@@ -1,0 +1,92 @@
+body { background-color: #092B40;}
+#wrapper { max-width: 850px}
+
+#title {
+  margin-top: 30px;
+  margin-bottom: 20px;
+  font-family: 'Berkshire Swash', cursive;
+  color: white;
+  font-size: 300%;
+}
+/* style for search box */
+.searchBox {
+  text-align: center;
+  display: block; 
+  margin: 35px auto;
+}
+
+.searchForm {
+  border: 3px solid #D96F32;
+  border-radius: 20px;
+  display: inline-block;
+  height: 34px;
+  position: relative;
+}
+
+#input {
+  font-size: 1em;
+  font-family: serif;
+  cursor: pointer;
+  border: none;
+  background: transparent;
+  height: 30px;
+  width: 0px;
+  line-height: 0px;
+  vertical-align: top;
+  padding: 0px 15px;
+  transition: width .5s;
+  position: relative;
+  z-index: 2;
+  color: #fff;
+}
+
+#input:focus {
+  width: 200px;
+  outline: none;
+  margin-right: 30px;
+}
+/* random quote */
+#rand {
+  color: #fff;
+  text-align: center;
+}
+
+#rand a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 18px;
+  font-family: 'Berkshire Swash', cursive;
+}
+
+#resultFeedback {
+  color: #fff;
+  text-align: center;
+  font-size: 18px;
+  font-family: 'Berkshire Swash', cursive;
+}
+
+
+/* style for result */
+.result-page {
+  background-color: white;
+  margin-top: 8px;
+  margin-bottom: 8px;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.result-page h3 {
+  margin-top: 10px;
+}
+
+.result-page:hover {
+  border-left: 10px solid orange;
+}
+
+.result-page a { text-decoration: none;}
+.result-page a:hover {
+  color: green;
+  font-weight: bolder;
+}
+
+/* style for well */

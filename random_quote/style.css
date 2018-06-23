@@ -1,0 +1,38 @@
+body {
+  background: url(https://images.pexels.com/photos/325208/pexels-photo-325208.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb) no-repeat center fixed;
+   background-size: cover;
+   height: 100%;
+   position:absolute; 
+   width:100%;
+}
+
+#wrapper { max-width: 800px;}
+
+/* style for Quote Area */
+#quoteArea {
+  margin-top: 30px;
+  box-shadow: -14px 13px 8px -2px rgba(0,0,0,0.33);
+}
+
+.font-style {
+  font-family: 'Berkshire Swash', cursive;
+  font-size: 55px;
+}
+
+#description {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  font-family: 'Droid Sans', sans-serif;
+  font-size: 20px;
+}
+
+.button { 
+  font-size: 20px;
+  box-shadow: 7px 7px 4px #888888;
+}
+
+#quoteText { font-family: 'Slabo 27px', serif; }
+#author { 
+  font-family: 'Rye', cursive; 
+  font-size: 30px;
+}

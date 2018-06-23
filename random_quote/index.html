@@ -1,0 +1,49 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Random Quote</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Berkshire+Swash|Coda|Rye|Slabo+27px|Droid+Sans">
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body>
+  <div class="container" id="wrapper">
+    <!--  title  -->
+    <div class="row" id="title">
+      <div class="col-sx-12">
+        <h1 class="text-center font-style">Random Quote Machine</h1>
+      </div>
+    </div>
+    
+    <!--  description  -->
+    <div class="row" id="description">
+      <div class="col-xs-12">
+        <p class="text-center"> There are some my favorite quotes I had collected. I hope you enjoy it! :D</p>
+      </div>
+    </div>
+    
+    <!--  button  -->
+    <div class="row">
+      <div class="col-xs-12 text-center">
+        <button class="font-style button btn btn-info" type="button" id="button">New Quote</button>
+      </div>
+    </div>
+    
+    <!--  Quote Area  -->
+      <div class="col-xs-12 text-center">
+        <div class="row">
+          <div class="well" id="quoteArea">
+            <h3 id="quoteText"></h3>
+            <author id="author"></author>
+          </div>
+      </div>
+    </div>
+    
+  </div>
+  <script src="script.js"></script>  
+</body>
+</html>

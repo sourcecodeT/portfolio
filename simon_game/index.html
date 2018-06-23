@@ -1,0 +1,53 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Simon Game</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Indie+Flower">
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+</head>
+<body>
+    <h4>Simon Game</h4>
+    <div class="wrapper">
+      <div class="button-wrapper">
+        <div class="t-l push green" id="0"></div>
+        <div class="t-r push red " id="1"></div> 
+        <div class="b-l push yellow" id="2"></div>
+        <div class="b-r push blue" id="3"></div>
+      </div>
+      <div class="center">
+        <h1 class="brand">Simon<span>®</span></h1>
+        <div class="display inline">
+          <h1 class="count led-off" id="count">--</h1>
+          <h3 class="label">COUNT</h3>
+        </div>
+        <div class="btn-box inline">
+          <div class="round-btn red" id="startGame"></div> 
+          <div class="label">START</div>
+        </div>
+        <div class="btn-box inline">
+          <div class="round-btn" id="strictMode"></div> 
+          <div class="label">STRICT</div>
+          <div class="led" id="trictModeLed"></div>
+        </div>
+        <div class="power"> 
+          <h3 class="label inline">OFF</h3>
+          <div class="sw-slot inline">
+            <div class="switch" id="sw"></div>
+          </div>
+          <h3 class="label inline">ON</h3>
+        </div>
+      </div>
+    </div>
+    
+    <!-- modal -->
+    <div id="seqComplete-message">
+      <p>Sequence Complete!</>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,182 @@
+hr {
+  border: black 2px solid;
+}
+
+.divide-line {
+  margin: 25px 20%;
+  height: 1px;
+  width: 60%;
+  background-color: white !important;
+ 
+}
+.divide-line.blue {
+  background: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(88, 110, 149, 0.75), rgba(0, 0, 0, 0)) !important;
+}
+
+/* nar bar */
+.navbar-inverse {
+	background-color: #002645;
+}
+
+.navbar-inverse .navbar-brand{
+	color: white;
+	margin: 0px;
+	padding: 15px 15px;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+	color: white;
+}
+
+.navbar-inverse .navbar-nav>li>a:hover {
+	background-color: white;
+	color: #002645
+}
+/* style home */
+#home {
+	background-image: url("./img/background.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	color: white;
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+	margin-bottom: 0px;
+	height: 700px;
+	width: 100%;
+}
+
+#home  h1 {
+	font-size: 500%;
+	text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+				 0px 8px 13px rgba(0,0,0,0.1),
+				 0px 18px 23px rgba(0,0,0,0.1);
+
+}
+
+#home h5 { font-size: 130%;}
+
+#home .home-text { padding-top: 100px;} 
+
+/* style about */
+#about { 
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+#about p { font-size: 150%;}
+#img_about {
+  max-width: 300px;
+  max-height: 300px;
+}
+
+
+/* style portfolio */
+#portfolio {
+  background-color: #002645;
+  font-family: Droid Serif;
+  font-style: italic;
+  font-size: 13px;
+  color: white;
+  margin: 0;
+}
+
+/*------ Thumbs -------*/
+
+.thumb {
+  margin: 0 auto;
+  max-width: 533px;
+  position: relative;
+}
+
+.hover-opaque {
+  background: #000;
+  height: 100%;
+  opacity: 0;
+  position: absolute;
+  top: 0px;
+  width: 100%;
+  transition: all ease .5s;
+  -webkit-transition: all ease .5s;
+  -moz-transition: all ease .5s;
+}
+
+.thumb .fa {
+  color: #FFF;
+  margin: -15px;
+  position: absolute;
+  opacity: 0;
+  top: 45%;
+  right: 45%;
+  transition: all ease .5s;
+  -webkit-transition: all ease .5s;
+  -moz-transition: all ease .5s;
+}
+
+.thumb:hover .hover-opaque {
+  opacity: 0.5;
+}
+
+.thumb:hover .fa {
+  opacity: 1;
+}
+
+.thumb-caption {
+  background: #FFF;
+  border-color: #E6E6E6;
+  border-style: solid;
+  border-width: 0px 1px 1px 1px;
+  color: #4E4E54;
+  font-weight: 800;
+  padding: 10px;
+}
+
+figcaption { font-size: 1.5em; }
+figcaption a:hover { 
+  color: #37A25B;
+  text-decoration: none;
+}
+
+
+
+
+/* style for contact */
+#contact {
+  background-color: #002645;
+  color: white;
+}
+#contact .page-header { font-family: 'Merriweather', serif; }
+#contact .lead { font-family: 'Slabo 27px', serif; }
+#contact abbr { text-decoration: none;}
+#contact ul li {
+  display: inline-block;
+  padding: 1em 1.5em;
+}
+
+#contact ul li a { color: white;}
+
+#contact ul li a:hover {
+  display: inline-block;
+  color: #2e9cd6; 
+  position: relative;
+  top: -5px;  
+}
+
+#contact ul li:first-child {
+  display: inline-block;
+  padding:  1em 1.5em 1em 0;
+}
+
+#avatar {
+  max-width: 400px;
+  max-height: 300px;
+  border-radius: 50%;
+}
+
+.logo {
+  max-width: 200px;
+  max-width: 200px;
+}
+
+img .resize {
+  width: auto;
+  height: 300px;
+}

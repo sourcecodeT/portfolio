@@ -1,0 +1,71 @@
+body {
+  background-color: #535559;
+  color: white;
+}
+#title {
+  font-family: 'Lobster', cursive;
+  font-size: 400%;
+}
+/* style for setting */
+#setting {
+  margin-top: 25px;
+}
+
+#break-time {
+  text-align: right;
+  padding-right: 30px;
+}
+
+#session-time {
+  padding-left: 30px;
+}
+
+.setting {
+  display: inline-block;
+}
+
+.setting h3 {
+  display: inline-block;
+  margin-left: 15px;
+  margin-right: 15px;
+  margin-top: 10px;
+}
+
+button {
+  background-color: #535559;
+  border: none;
+  height: 30px;
+  width: 30px;
+}
+
+button:active {
+  transform: translate(0px, 3px);
+  box-shadow: none;
+}
+
+#timing {
+  border: 2px solid #fcc80c;
+  border-radius: 50%;
+  display: block;
+  margin: 50px auto auto;
+  height: 300px;
+  width: 300px;
+}
+
+#timing h3 {
+  text-align: center;
+  margin-top: 50px;
+  font-size: 45px;
+  font-family: 'PT Sans Narrow', sans-serif;
+}
+#status {
+  text-align: center;
+  font-size: 150%;
+}
+#reset {
+  margin-top: 50px;
+  width: 100px;
+  font-family: 'PT Sans Narrow', sans-serif;
+  font-weight: bold;
+  font-size: 130%;
+}

@@ -1,0 +1,94 @@
+body {
+  background-color: rgb(32, 32, 32);
+  background-image: url("https://janschreiber.github.io/img2/black-chalk.jpg");
+  color: rgb(230, 230, 230);
+  text-align: center;
+}
+h1 {
+font-family: 'Sumana', serif;
+font-size: 300%;
+}
+td {
+  border: 2px solid rgb(230, 230, 230);
+  height: 100px;
+  width: 100px;
+  text-align: center;
+  vertical-align: middle;
+  font-family: "Comic San MS", cursive;
+  font-size: 70px;
+  cursor: pointer;
+}
+
+table {
+  border-collapse: collapse;
+  left: 50%;
+  position: relative;
+  margin-left: -155px;
+  top: 50px;
+}
+
+table tr:first-child td {
+  border-top: 0;
+}
+
+table tr:last-child td {
+  border-bottom: 0;
+}
+
+table tr td:first-child {
+  border-left: 0;
+}
+
+table tr td:last-child {
+  border-right: 0;
+}
+
+/* style for endGame */
+.endGame {
+display: none;
+width: 200px;
+top: 200px;
+background-color: rgba(205, 133, 63, 0.8);
+position: absolute;
+left: 50%;
+margin-left: -100px;
+padding-top: 50px;
+padding-bottom: 50px;
+text-align: center;
+border-radius: 5px;
+font-size: 2em;
+color: black;
+}
+
+.endGame button{
+margin-top: 20px;
+}
+
+/* style for game setting */
+#restart {
+  color: white;
+  font-size: 3em;
+  width: 1em;
+  height: 0.9em;
+  cursor: pointer;
+  margin: 0 auto;
+/*     overflow: hidden; */
+  position: relative;
+  top: 70px;
+}
+
+#result {
+margin-top: 90px;
+font-family: 'Indie Flower', 'Comic Sans', cursive;
+}
+
+#result h4 { 
+font-size: 1.5em; 
+border-top: 2px solid white;
+padding-top: 7px;
+}
+#result h5 { font-size: 2em; }
+.compScore {  text-align: right; }
+.compScore h5 { margin-right: 35px; }
+.yourScore { text-align: left; }
+.yourScore h5 { margin-left: 10px; }

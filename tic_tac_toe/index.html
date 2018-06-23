@@ -1,0 +1,67 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Indie+Flower">
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <title>Tic Tac Toe</title>
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+          <div class="col-xs-12">
+            <h1 class="text-center">Tic Tac Toe</h1>
+          </div>
+        </div>
+        
+        <table>
+          <tr>
+            <td class="cell" id="0"></td>
+            <td class="cell" id="1"></td>
+            <td class="cell" id="2"></td>
+          </tr>
+          <tr>
+            <td class="cell" id="3"></td>
+            <td class="cell" id="4"></td>
+            <td class="cell" id="5"></td>
+          </tr>
+          <tr>
+            <td class="cell" id="6"></td>
+            <td class="cell" id="7"></td>
+            <td class="cell" id="8"></td>
+          </tr>
+        </table>
+      </div>
+      
+      <div id="restart" title="Start new game" onclick="restartGame()">
+        <span class="glyphicon glyphicon-refresh"></span>
+      </div>
+      
+      <div id="result" class="container">
+        <div class="row">
+          <div class="col-xs-4 compScore">
+            <h4>Computer</h4>
+            <h5 id="compScore"><h5>
+          </div>
+          <div class="col-xs-4 tie">
+            <h4>Tie</h4>
+            <h5 id="tie"><h5>
+          </div>
+          <div class="col-xs-4 yourScore">
+            <h4>You</h4>
+            <h5 id="yourScore"><h5>
+          </div>
+        </div>
+      </div>
+      
+      <div class="endGame">
+        <div class="text"></div>
+        <button id="reset" onClick="startGame()">Continue</button>
+      </div>
+  <script src="script.js"></script>
+</body>
+</html>

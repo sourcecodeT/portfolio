@@ -1,0 +1,47 @@
+body {
+  background: url(https://images.unsplash.com/photo-1422564030440-1ecae6e21f67?dpr=1&auto=compress,format&fit=crop&w=801&h=&q=80&cs=tinysrgb&crop=) no-repeat center fixed;
+   background-size: cover;
+   height: 100%;
+   position:absolute; 
+   width:100%;
+}
+
+/* style for info Area */
+#infoArea {
+  max-width: 900px;
+  background-color: RGBA(0, 0, 0, 0.3);
+  box-shadow: -1px 2px 8px 0px rgba(0,0,0,0.3);
+  color: white;
+  border: 1px solid white;
+}
+
+#icon { 
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+hr {
+    margin-top: 3px;
+    border-width: 1px 0;
+    border-color: white;
+}
+
+#temp {
+  font-size: 1000%;
+}
+
+#temper h5 {
+  margin-top: -50px;
+  margin-bottom: 10px;
+}
+#temper p sup {
+    vertical-align: baseline;
+    position: relative;
+    top: -175px;
+    line-height: 0;
+    font-size: 40px;
+    font-weight: 400;    
+}
+
+/* style for button C/F */
